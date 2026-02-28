@@ -1,4 +1,4 @@
-const { fishMenu } = require("./restaurant.js")
+const { fishMenu } = require("./restaurant.js");
 
 /*
   Do not comment out this code. 
@@ -7,7 +7,7 @@ const { fishMenu } = require("./restaurant.js")
   writing supporting functionality in the other 
   modules
 */
-const dailyPriceLimit = 3.99
-const menu = fishMenu(dailyPriceLimit)
-console.log(menu)
 
+const dailyPriceLimit = 3.99;
+const menu = fishMenu(dailyPriceLimit);
+console.log(menu);
